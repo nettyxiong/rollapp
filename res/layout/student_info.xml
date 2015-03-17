@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                 android:stretchColumns="1">
+        <TableRow>
+            <TextView android:text="头像"/>
+            <ImageView android:id="@+id/image_portrait" android:layout_width="wrap_content"
+                       android:layout_height="280px"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="账号"/>
+            <EditText android:id="@+id/accountInfo" android:editable="false"></EditText>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="姓名"/>
+            <EditText android:id="@+id/userNameInfo" android:editable="false"></EditText>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="性别"/>
+            <EditText android:id="@+id/sexInfo" android:editable="false"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="班级"/>
+            <EditText android:id="@+id/classInfo" android:editable="false"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="手机号"/>
+            <EditText android:id="@+id/telephoneInfo" android:editable="false"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="E-mail"/>
+            <EditText android:id="@+id/emailInfo" android:editable="false"/>
+        </TableRow>
+        <TableRow>
+            <Button android:text="修改更新"
+                    android:id="@+id/updateInfo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:layout_span="2"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

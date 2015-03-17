@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">移动点名系统</string>
+    <string name="app_title">移动点名系统</string>
+    <string name="login_type">登陆类型</string>
+    <string name="login_student">学生登陆</string>
+    <string name="login_teacher">教师登陆</string>
+    <string name="user_name">用户名称</string>
+    <string name="password">用户密码</string>
+    <string name="cancle">取消</string>
+    <string name="login">登陆</string>
+    <string name="login_success">登陆成功</string>
+    <string name="login_fail">登陆失败</string>
+    <string name="register">注册</string>
+    <string name="tips">提示</string>
+    <string name="ok">确定</string>
+    <string name="if_exit">确定退出?</string>
+    <string name="if_logout">确定注销登陆?</string>
+    <string name="empty_username_error">用户名称是必填项！</string>
+    <string name="empty_password_error">用户密码是必填项！</string>
+    <string name="network_error">网络异常！</string>
+    <string name="user_info">个人信息</string>
+    <string name="code_roll">扫码点名</string>
+    <string name="all_roll">全局点名</string>
+    <string name="arandom_roll">随机点名</string>
+    <string name="roll_result">点名结果</string>
+    <string name="max_user_length_error">用户名长度不能超过50个字符</string>
+    <string name="max_password_length_error">密码长度不能超过20个字符</string>
+    <string name="register_error">注册失败</string>
+    <string name="register_error_for_duplicate_user">此用户名已被占用</string>
+    <string name="regieter_success">注册成功</string>
+</resources>

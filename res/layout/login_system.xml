@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/yellow">
+    <ImageView android:id="@+id/ImageView01"
+               android:layout_height="280px" android:layout_width="wrap_content"
+               android:src="@drawable/login_background" android:layout_gravity="center"></ImageView>
+
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_type"
+                    android:textSize="8pt"
+                    android:textColor="@color/black"
+                    />
+            <RadioGroup android:id="@+id/LoginradioGroup" android:contentDescription="@string/login_type"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:id="@+id/radioStudent" android:text="@string/login_student"
+                             android:checked="true"></RadioButton>
+                <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:id="@+id/radioTeacher" android:text="@string/login_teacher"></RadioButton>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/user_name" android:id="@+id/UserNameTextView"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="@color/black"
+                    ></TextView>
+
+            <EditText android:text="" android:id="@+id/userEditText"
+                      android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView android:text="@string/password" android:id="@+id/PasswordTextView"
+                      android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="@color/black"
+                    ></TextView>
+
+            <EditText android:text="" android:id="@+id/pwdEditText"
+                      android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:password="true"></EditText>
+        </TableRow>
+
+        <TableRow android:gravity="right">
+            <Button android:text="@string/cancle" android:id="@+id/cancelButton"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+            <Button android:text="@string/login" android:id="@+id/loginButton"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+            <Button android:text="@string/register" android:id="@+id/registerButton"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
